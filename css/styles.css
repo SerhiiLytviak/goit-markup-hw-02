@@ -131,7 +131,10 @@ address {
 .contacts {
   background-color: var(--secondary-background-color);
 }
-
+.footer-address{
+  font-size: 14px;
+  line-height:1.71;
+}
 .footer-address .contacts-map {
   color: var(--primary-white-color);
   
