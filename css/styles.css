@@ -173,7 +173,8 @@ address {
   background-color: var(--category-button-background-color);
 }
 
-.category-button:active {
+.category-button:hover,
+.category-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
