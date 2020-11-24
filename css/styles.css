@@ -6,11 +6,13 @@
   --logo-header-color: #000000;
   --logo-footer-color: rgba(255, 255, 255, 0.6);
   --secondary-background-color: #2f303a;
+  --category-button-background-color :#f5f4fa; 
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -40,6 +42,13 @@ address {
   list-style: none;
 }
 
+.section-text {
+  color: var(--secondary-text-color);
+
+  line-height: 1.71;
+}
+
+
 /* Logo */
 
 .logo {
@@ -61,6 +70,7 @@ address {
 
 .site-nav .link {
   color: var(--primary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -80,6 +90,7 @@ address {
 
 .address-nav .link {
   color: var(--secondary-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -99,6 +110,7 @@ address {
 
 .hero-title {
   color: var(--primary-white-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36
@@ -114,11 +126,17 @@ address {
   color: var(--primary-white-color);
 }
 
-/* Section */
+/* Team */
 
-.section-text {
-  color: var(--secondary-text-color);
+.team-name {
+  font-weight: 500;
+  line-height: 1.19;
 }
+
+.section-text.position {
+  line-height: 1.19;
+}
+
 
 /* Logo footer */
 
@@ -144,6 +162,41 @@ address {
 .footer-address .phone {
   color: var(--logo-footer-color);
 }
+
+
+/* Portfolio */
+
+/* Category button */
+
+.category-button {
+  color: var(--primary-text-color);
+  background-color: var(--category-button-background-color);
+}
+
+.category-button:active {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Projects */
+
+.projects-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-text {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+
 
 /* цвет основного текста #212121 */
 
